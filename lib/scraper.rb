@@ -29,7 +29,10 @@ end
     links.each do |link|
       if link.include?("github")
         profile_hash[:github] = link 
-        
+        elsif link.include?("twitter")
+        profile_hash[:twitter] = link 
+        elsif link.include?("")
+        profile_hash[:] = link
   end
 
 end

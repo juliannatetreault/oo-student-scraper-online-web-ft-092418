@@ -24,7 +24,7 @@ end
       profile_quote: doc.css(".profile-quote").text
     }
     
-    links = doc.css(".social-icon-container a").collect {}
+    links = doc.css(".social-icon-container a").collect { |p| p.attribute }
   end
 
 end

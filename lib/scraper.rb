@@ -21,7 +21,7 @@ end
     #binding.pry
     profile_hash = {
       bio: doc.css(".description-holder p").text,
-      profile_quote: 
+      profile_quote: doc.css("profile")
     }
   end
 

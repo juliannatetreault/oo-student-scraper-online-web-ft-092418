@@ -9,7 +9,7 @@ class Scraper
     #binding.pry
     doc.css("div.student-card").collect do |student|
     student_hash = {
-    name: doc.css("h4.student-name").text,
+    name: student.css("h4.student-name").text,
     #:location => doc.css("p.student-location").text,
     #:profile_url => doc.css("div.student-card a").text
     }

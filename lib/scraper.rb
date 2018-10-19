@@ -33,6 +33,7 @@ end
         profile_hash[:twitter] = link 
         elsif link.include?("linkedin")
         profile_hash[:linkedin] = link
+      else
   end
 
 end

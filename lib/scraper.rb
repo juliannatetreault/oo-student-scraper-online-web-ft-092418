@@ -28,7 +28,8 @@ end
     
     links.each do |link|
       if link.include?("github")
-        profile_hash[:github]
+        profile_hash[:github] = link 
+        
   end
 
 end

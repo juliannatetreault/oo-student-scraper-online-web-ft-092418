@@ -23,6 +23,8 @@ end
       bio: doc.css(".description-holder p").text,
       profile_quote: doc.css(".profile-quote").text
     }
+    
+    links = doc.css
   end
 
 end

@@ -21,7 +21,7 @@ end
     #binding.pry
     profile_hash = {
       bio: 
-      student_quote: 
+      profile_quote: 
     }
   end
 

@@ -20,7 +20,8 @@ end
     doc = Nokogiri::HTML(open(profile_url))
     #binding.pry
     profile_hash = {
-      
+      bio: 
+      student_quote: 
     }
     #doc.css()
   end

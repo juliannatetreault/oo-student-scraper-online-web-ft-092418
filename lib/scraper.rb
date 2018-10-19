@@ -31,8 +31,8 @@ end
         profile_hash[:github] = link 
         elsif link.include?("twitter")
         profile_hash[:twitter] = link 
-        elsif link.include?("linked")
-        profile_hash[:] = link
+        elsif link.include?("linkedin")
+        profile_hash[:linkedin] = link
   end
 
 end

@@ -35,9 +35,8 @@ end
         profile_hash[:linkedin] = link
       else
         profile_hash[:blog] = link
+      end
     end
+    profile_hash
   end
-  profile_hash
-end
-
 end

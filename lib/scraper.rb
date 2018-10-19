@@ -23,7 +23,6 @@ end
       bio: 
       student_quote: 
     }
-    #doc.css()
   end
 
 end

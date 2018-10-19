@@ -34,7 +34,9 @@ end
         elsif link.include?("linkedin")
         profile_hash[:linkedin] = link
       else
-        profile_hash[:blog] = hash
+        profile_hash[:blog] = link
+    end
   end
+end
 
 end

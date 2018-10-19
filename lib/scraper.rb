@@ -26,7 +26,8 @@ end
     
     links = doc.css(".social-icon-container a").collect { |t| t.attribute("href").value }
     
-    
+    links.each do |link|
+      
   end
 
 end

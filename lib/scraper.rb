@@ -37,6 +37,7 @@ end
         profile_hash[:blog] = link
     end
   end
+  profile_hash
 end
 
 end

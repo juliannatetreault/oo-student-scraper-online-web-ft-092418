@@ -24,7 +24,7 @@ end
       profile_quote: doc.css(".profile-quote").text
     }
     
-    links = doc.css(".social-icon-container")
+    links = doc.css(".social-icon-container a")
   end
 
 end
